@@ -6,6 +6,13 @@ import random as rd
 import undetected_chromedriver as uc
 import pymongo
 
+client = pymongo.MongoClient("mongodb+srv://user1:123@cluster0.ruioxcd.mongodb.net/?retryWrites=true&w=majority")
+db1 = client["test1"]
+
+collection1 = db1["Instagram_Reels"]
+initial = list(collection1.find(post))
+prev_code = initial[len(intial)-1]['EmbedCode']
+
 
 
 reels_link = []
@@ -179,6 +186,7 @@ job()
 print(reels_link)
 post = {"Username" : "wilfredburr", "ReelsUrl": url, "EmbedCode": reels_link}
 print(post)
+if(post['EmbedCode']!=intial_code):
 #Sending Data to DataBase
 
 
@@ -188,3 +196,4 @@ db = client["test1"]
 
 collection = db["Instagram_Reels"]
 collection.insert_one(post)
+
