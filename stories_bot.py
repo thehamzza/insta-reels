@@ -175,7 +175,7 @@ def job():
         wd.quit()
         print("SUCCESS")
     except Exception as e:
-        print("error during login")
+        print("error during login :", e)
         wd.quit()
         #traceback.print_exc()
 
