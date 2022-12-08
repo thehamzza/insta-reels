@@ -11,7 +11,9 @@ from pymongo import MongoClient
 reels_link = []
 url = []
 
-f = open("login_info.txt", "r")
+#f = open("login_info.txt", "r")
+#for server, full address to txt file
+f = open("/home/ec2-user/projects/insta-reels/login_info.txt", "r")
 credentials = []
 for line in f:
     credentials.append(line.strip())
