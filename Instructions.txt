@@ -1,0 +1,14 @@
+To run python bot on local device.
+1) make sure python, chrome browser is installed
+2) install requirements.txt file
+3) run script in the cmd as
+  python -m stories_bot
+
+-----------------------------------
+To run python bot on the EC2 server
+1) make sure python, chrome browser is installed
+2) Go to cd projects/insta-reels/
+3) run script in the terminal as
+  python3 -m stories_bot
+
+
