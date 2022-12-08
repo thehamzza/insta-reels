@@ -207,10 +207,10 @@ def job():
 
         wd.quit()
         post = {"Username" : "wilfredburr", "Reels url": url, "Embed Code": reels_link}
-        print(post)
+        print("Post : ", post)
         print("SUCCESS")
     except Exception as e:
-        print("error during login")
+        print("Error during login :", e)
         wd.quit()
         #traceback.print_exc()
 
