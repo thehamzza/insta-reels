@@ -1,0 +1,32 @@
+To run python bot on local device.
+1) make sure python, chrome browser is installed
+2) install requirements.txt file
+3) run script in the cmd as
+  python -m stories_bot
+
+----------------------------------
+To access the EC2 server on your pc
+
+open aws ec2 key value file in bash terminal or linux terminal and then paste this command
+EC2 ssh command:
+ssh -i "insta-reels.pem" ec2-user@ec2-3-108-42-252.ap-south-1.compute.amazonaws.com
+
+-------------------------------------
+aws ec2 key value .pem file link:
+https://github.com/thehamzza/insta-reels/blob/main/insta-reels.pem
+
+-----------------------------------
+To run python bot on the EC2 server
+1) make sure python, chrome browser is installed
+2) Go to cd projects/insta-reels/
+3) run script in the terminal as
+  python3 -m stories_bot
+  
+-----------------------------------
+To check cronjob logs
+cat /var/spool/mail/ec2-user
+
+---------------------------------------
+to install/update/change chrome browser on the server:
+
+https://www.cyberciti.biz/faq/howto-install-google-chrome-on-redhat-rhel-fedora-centos-linux/
