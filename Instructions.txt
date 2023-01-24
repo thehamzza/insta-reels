@@ -26,3 +26,8 @@ ssh -i "insta-reels.pem" ec2-user@ec2-3-108-42-252.ap-south-1.compute.amazonaws.
 -------------------------------------
 aws ec2 key value .pem file link:
 https://github.com/thehamzza/insta-reels/blob/main/insta-reels.pem
+
+---------------------------------------
+to install/update/change chrome browser on the server:
+
+https://www.cyberciti.biz/faq/howto-install-google-chrome-on-redhat-rhel-fedora-centos-linux/
