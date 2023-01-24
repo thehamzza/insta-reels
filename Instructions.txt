@@ -10,10 +10,12 @@ To run python bot on the EC2 server
 2) Go to cd projects/insta-reels/
 3) run script in the terminal as
   python3 -m stories_bot
-  
-------------------------------------
+
+
+-----------------------------------
 To check cronjob logs
 cat /var/spool/mail/ec2-user
 
-
-
+----------------------------------
+EC2 ssh command
+ssh -i "insta-reels.pem" ec2-user@ec2-3-108-42-252.ap-south-1.compute.amazonaws.com
