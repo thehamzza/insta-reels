@@ -17,5 +17,8 @@ To check cronjob logs
 cat /var/spool/mail/ec2-user
 
 ----------------------------------
-EC2 ssh command
+To access the EC2 server on your pc
+
+open aws ec2 key value file in bash terminal or linux terminal and then paste this command
+EC2 ssh command:
 ssh -i "insta-reels.pem" ec2-user@ec2-3-108-42-252.ap-south-1.compute.amazonaws.com
