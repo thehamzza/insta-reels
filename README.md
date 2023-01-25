@@ -27,6 +27,20 @@ To check cronjob logs:
 ---------------------
 cat /var/spool/mail/ec2-user
 
+To check running cron jobs:
+---------------------------
+crontab -l
+
+To create/change a cronjob file:
+-------------------------------
+crontab -e
+
+To save and exit vim:
+--------------------
+:wq
+
+
+
 to install/update/change chrome browser on the server:
 -----------------------------------------------------
 https://www.cyberciti.biz/faq/howto-install-google-chrome-on-redhat-rhel-fedora-centos-linux/
