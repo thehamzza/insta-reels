@@ -52,6 +52,6 @@ https://www.youtube.com/watch?v=3sQhVKO5xAA&list=LL&index=34&ab_channel=MachineL
 
 to install git on linux terminal
 --------------------------------
-sudo yum update
-sudo yum install git
+-sudo yum update
+-sudo yum install git
 
