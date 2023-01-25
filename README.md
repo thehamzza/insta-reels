@@ -50,3 +50,8 @@ video tutorial to create aws instance:
 
 https://www.youtube.com/watch?v=3sQhVKO5xAA&list=LL&index=34&ab_channel=MachineLearningHub
 
+to install git on linux terminal
+--------------------------------
+sudo yum update
+sudo yum install git
+
