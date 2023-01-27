@@ -10,7 +10,9 @@ To access the EC2 server on your pc:
 open aws ec2 key value file in bash terminal or linux terminal and then paste this command
 EC2 ssh command:
 -------------------------------------
+```
 ssh -i "insta-reels.pem" ec2-user@ec2-3-108-42-252.ap-south-1.compute.amazonaws.com
+```
 
 aws ec2 key value .pem file link:
 ---------------------------------
@@ -25,33 +27,43 @@ To run python bot on the EC2 server:
 
 To check cronjob logs:
 ---------------------
+```
 cat /var/spool/mail/ec2-user
+```
 
 To check running cron jobs:
 ---------------------------
+```
 crontab -l
+```
 
 To create/change a cronjob file:
 -------------------------------
+```
 crontab -e
-
+```
 To save and exit vim:
 --------------------
+```
 :wq
-
+```
 
 
 to install/update/change chrome browser on the server:
 -----------------------------------------------------
+```
 https://www.cyberciti.biz/faq/howto-install-google-chrome-on-redhat-rhel-fedora-centos-linux/
-
+```
 video tutorial to create aws instance:
 ---------------------------------------
-
+```
 https://www.youtube.com/watch?v=3sQhVKO5xAA&list=LL&index=34&ab_channel=MachineLearningHub
-
+```
 to install git on linux terminal
 --------------------------------
--sudo yum update
--sudo yum install git
-
+```
+sudo yum update
+```
+```
+sudo yum install git
+```
