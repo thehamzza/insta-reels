@@ -51,14 +51,12 @@ To save and exit vim:
 
 to install/update/change chrome browser on the server:
 -----------------------------------------------------
-```
 https://www.cyberciti.biz/faq/howto-install-google-chrome-on-redhat-rhel-fedora-centos-linux/
-```
+
 video tutorial to create aws instance:
 ---------------------------------------
-```
 https://www.youtube.com/watch?v=3sQhVKO5xAA&list=LL&index=34&ab_channel=MachineLearningHub
-```
+
 to install git on linux terminal
 --------------------------------
 ```
